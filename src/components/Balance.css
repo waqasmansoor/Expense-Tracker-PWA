@@ -1,0 +1,53 @@
+.balance_container{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-content: center;
+    height:20vh;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: #757373;
+    overflow: hidden;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.balance_container h4{
+    color:white;
+    letter-spacing: 3px;
+    font-size: 36px;
+    margin-top: 2%;
+    
+}
+.inc_exp_container{
+    position:absolute;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    margin-left: 0;
+    left:0;
+    bottom:10px;
+    
+}
+.inc_exp_container div{
+    display:inline-block;
+    width:100%;
+    text-align: center;
+    height:8vh;
+    
+}
+.inc_exp_container div span{
+    
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:white;
+    
+    
+}
+#income_text{
+    color: #97d85a;
+
+}
+#expense_text{
+    color:#4d72ee;
+}

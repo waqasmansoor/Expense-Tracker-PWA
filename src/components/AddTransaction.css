@@ -1,0 +1,118 @@
+.form_container{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    width:90%;
+    margin-left: 5%;
+    margin-right:5%;
+    top:50%;
+    bottom:3%;
+    border:1px solid black;
+    background-color: inherit;
+    border-radius: 10px;
+
+}
+.form_container h3{
+    position:relative;
+     margin-top: -25%; 
+    
+    
+}
+.form_container label{
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    
+    
+}
+.form_container input{
+    display:flex;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 1vh;
+    border-radius:10px;
+    height:5vh;
+    border:2px solid #757373;
+}
+.form_container input:hover{
+    border-color: white;
+}
+.button_container{
+    display:flex;
+    position:absolute;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    bottom: 5%;
+    
+}
+.button_container button{
+    position:relative;
+    width:100%;
+    height:8vh;
+    color:white;
+    font-size: 18px;
+    border:none;
+    
+    
+}
+.income_button{
+
+    background-color: #97d85a;
+}
+.income_button span:before,.expense_button span:before{
+    position:absolute;
+    content:'';
+    width:25px;
+    height:2px;
+    border:none;
+    background-color: white;
+    top:44px;
+    left:40%;
+
+}
+.income_button span{
+    
+    padding: 6% 12% 6% 12%;
+    
+}
+@media (max-width:350px){
+    .income_button span{
+        padding:0;
+    }
+}
+.expense_button span{
+    
+    
+    padding: 6% 3% 6% 12%;
+    
+}
+@media (max-width:350px){
+    .expense_button span{
+        padding:0
+    }
+}
+.expense_button{
+    background-color: #4d72ee;
+}
+
+.income_btn_working,.expense_btn_working{
+    cursor:pointer;
+    
+}
+.income_btn_working:hover span{
+    border:2px solid white;
+}
+.expense_btn_working:hover span{
+    border:2px solid white;
+
+}
+.income_btn_working:hover{
+    background-color: #b4e686;
+}
+.expense_btn_working:hover{
+    background-color:#6f8df1
+}
+
